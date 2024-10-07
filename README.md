@@ -1,5 +1,5 @@
 # My_resume
 
 
-[View Resume](./My_resume pdf.pdf)
+[View Resume](https://github.com/MK-Github03/My_resume/blob/main/My_resume%20pdf.pdf))
 
