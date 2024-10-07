@@ -1,4 +1,5 @@
 # My_resume
 
 
-[View Resume](My_resume pdf.pdf)
+[View Resume](./My_resume.pdf)
+
