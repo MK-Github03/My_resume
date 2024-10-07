@@ -1,2 +1,4 @@
 # My_resume
-Click here for my resume
+
+
+[View Resume](My_resume pdf.pdf)
