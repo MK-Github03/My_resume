@@ -1,0 +1,216 @@
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+\begin{center}
+    \textbf{\Huge \scshape Manoj Kumar Ashok} \\ \vspace{1pt}
+    \small (312)-284 9898 $|$ \href{mailto:mashok@depaul.edu}{\underline{Mashok@depaul.edu}} $|$ 
+    \href{https://www.linkedin.com/in/manoj-kumar-ashok-078241211/}{\underline{linkedin.com/Manoj}} $|$
+    \href{https://github.com/MK-Github03}{\underline{github.com/Manoj}} 
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+ 
+    \resumeSubheading
+      {DePaul University}{Chicago, IL}
+      {Master of Data Science, Concentrated on computational methods - \textbf{GPA:} 4.0/4.0}{Jan 2024 -- Nov 2025  }
+       \vspace{0.1em}
+      
+      {\textbf{Coursework}: Data analysis and regression, \textbf{Mining Big data}, Advanced Machine Learning, Fundamentals of Data Science, Advanced Data analysis, Database processing for large scale analytics, \textbf{Neural Networks and Deep Learning}, \textbf{Natural Language Processing}. }
+    
+  \resumeSubHeadingListEnd
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, R, SQL} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: RStudio, SQL Server, Git, hadoop, Apache spark, AWS-redshift, Azure, Big Query, Dataflow,} \\
+     \textbf{Database Management}{: Database Management: MySQL, RDBMS – Oracle, ETL, Data Pipelines, Airflow, SSIS }
+     \textbf{Visualization}{: Matplotlib, Seaborn, ggplot2, Tableau, PowerBI, quickSight, snowflake }
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer}{\textit{Jan 2023--July 2023}}
+      {Zoho Corporation }{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{\textbf{Developed and optimized data processing} scripts using \textbf{Python} and \textbf{SQL} to automate the \textbf{extraction, transformation}, and analysis of large datasets from Zoho CRM and Zoho Books, resulting in a \textbf{20\%} increase in \textbf{data management} efficiency.}
+        \resumeItem{Engineered custom solutions for data visualization and reporting using \textbf{Tableau }and\textbf{ Microsoft Excel}, integrating advanced \textbf{SQL queries} and automating \textbf{data pipelines}, which improved business process insights and decision-making.}
+        \resumeItem{Designed and implemented \textbf{data models} and \textbf{statistical analysis} workflows to track key trends in support data, improving customer issue resolution by \textbf{10\%} through more efficient querying and reporting.}
+        \resumeItem{Collaborated with cross-functional teams to architect and deploy scalable \textbf{ETL pipelines} using \textbf{Airflow} and optimize \textbf{data processing} workflows, reducing processing time by \textbf{15\%} and ensuring reliable data flow across systems.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  %  \resumeSubheading
+%   {Information Technology Support Specialist}{Sep. 2018 -- Present}
+%      {Southwestern University}{Georgetown, TX}
+%      \resumeItemListStart
+%        \resumeItem{Communicate with managers to set up campus computers used on campus}
+%        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+%        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+%    \resumeItemListEnd
+
+%    \resumeSubheading
+%     {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+%      {Southwestern University}{Georgetown, TX}
+%      \resumeItemListStart
+%        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+%        \resumeItem{Developed a game in Java to test the generated dungeons}
+%       \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+%        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+%        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+%        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+%      \resumeItemListEnd
+
+%  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\underline{\href{https://github.com/MK-Github03/Speech-Emotion_recognition-using-Deep-learning}{Speech Emotion Detection using Deep Learning}}} $|$ \emph{\textbf{\scriptsize  TensorFlow, \scriptsize SVM,\scriptsize NumPy, \scriptsize Matplotlib}}}{\textit{July 2023}}
+          \resumeItemListStart
+          \vspace{0.5em} % Adds vertical space of 0.5em
+            \resumeItem{Developed a Speech Emotion Detection model in \textbf{Python}, achieving \textbf{85\%} accuracy using \textbf{TensorFlow} and \textbf{SVM}, with audio feature extraction performed by LibROSA (e.g., MFCC, Chroma, and Mel Spectrogram).}
+            \resumeItem{Built and optimized data pipelines using \textbf{Git} and \textbf{NumPy}, reducing preprocessing time by \textbf{30\%} and improving data handling efficiency by \textbf{40\%}.}
+            \resumeItem{Enhanced emotion classification accuracy by \textbf{25\%} through advanced feature engineering and hyperparameter tuning techniques using \textbf{Scikit-Learn}.}
+            \resumeItem{Visualized model performance and insights using \textbf{Matplotlib}, increasing the efficiency of data interpretation by \textbf{20\%}}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Predictive Analysis for credit limit} $|$ \emph{\textbf{\scriptsize Python,\scriptsize Scikit-Learn,\scriptsize TensorFlow,\scriptsize SQL,\scriptsize Pandas,\scriptsize NumPy,}}}{\textit{July 2024}}
+          \resumeItemListStart
+           \vspace{0.5em}
+            \resumeItem{Developed machine learning model using \textbf{Python}, \textbf{Scikit-Learn}, and TensorFlow, improving prediction accuracy by \textbf{20\%.} Applied \textbf{Ridge} and \textbf{Lasso} Regression to reduce overfitting and improve model generalization.}
+            \resumeItem{Preprocessed data with \textbf{Pandas} and \textbf{NumPy}, reducing anomalies by \textbf{25\%} and increasing model accuracy by \textbf{18\%} through feature scaling, outlier detection, and data normalization.}
+            \resumeItem{Used advanced \textbf{feature engineering} and hyperparameter tuning, boosting model performance by \textbf{22\%} and validating results through \textbf{cross-validation}. Evaluated models using \textbf{RMSE, MAE, and R²}.}
+            \resumeItem{Enhanced \textbf{data pipeline} efficiency with \textbf{SQL}, streamlining data extraction for scalable machine learning pipelines, and visualized insights with \textbf{Matplotlib} for effective communication.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+
+%
+
+
+%-------------------------------------------
+\end{document}
