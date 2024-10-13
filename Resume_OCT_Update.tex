@@ -16,7 +16,7 @@
 \input{glyphtounicode}
 
 
-%----------FONT OPTIONS---------
+%----------FONT OPTIONS----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
 % \usepackage[sfdefault]{roboto}
@@ -55,7 +55,7 @@
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
-%-----------------------
+%-------------------------
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
@@ -94,19 +94,24 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%------------------------------------------
+%-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
 
-
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sn/}{\Lasbb}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
 
 \begin{center}
     \textbf{\Huge \scshape Manoj Kumar Ashok} \\ \vspace{1pt}
+     
     \small (312)-284 9898 $|$ \href{mailto:mashok@depaul.edu}{\underline{Mashok@depaul.edu}} $|$ 
     \href{https://www.linkedin.com/in/manoj-kumar-ashok-078241211/}{\underline{linkedin.com/Manoj}} $|$
-    \href{https://github.com/MK-Github03}{\underline{github.com/Manoj}} 
+    \href{https://github.com/MK-Github03}{\underline{github.com/Manoj}} $|$ \small Chicago, IL 
 \end{center}
 
 
@@ -126,10 +131,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, R, SQL} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: RStudio, SQL Server, Git, hadoop, Apache spark, AWS-redshift, Azure, Big Query, Dataflow,} \\
-     \textbf{Database Management}{: Database Management: MySQL, RDBMS – Oracle, ETL, Data Pipelines, Airflow, SSIS }
+     \textbf{Languages }{: Python, R, SQL} \\
+     \textbf{Developer Tools}{: RStudio, SQL Server, Kafka, Git, hadoop, Apache spark } \\
+     \textbf{Database Management}{: Database Management: MySQL, RDBMS (Oracle), Hive, MongoDB, ETL, Airflow, SSIS }\\
+     \textbf{Cloud platforms}{: Data pipelines- Azure data factory, AWS-redshift, Big Query, Dataflow}\\
      \textbf{Visualization}{: Matplotlib, Seaborn, ggplot2, Tableau, PowerBI, quickSight, snowflake }
     }}
  \end{itemize}
@@ -140,7 +145,7 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Software Developer}{\textit{Jan 2023--July 2023}}
+      {Software Developer - Data Engineering team}{\textit{Jan 2023--July 2023}}
       {Zoho Corporation }{Chennai, India}
       \resumeItemListStart
         \resumeItem{\textbf{Developed and optimized data processing} scripts using \textbf{Python} and \textbf{SQL} to automate the \textbf{extraction, transformation}, and analysis of large datasets from Zoho CRM and Zoho Books, resulting in a \textbf{20\%} increase in \textbf{data management} efficiency.}
@@ -158,28 +163,27 @@
 %     \resumeItemListEnd
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
-%for subheading and some examples
-%\resumeSubheading
-%   {Position Title}{Date Range}
-  %    {Organization}{Location}
-  %    \resumeItemListStart
-  %      \resumeItem{Description of responsibility or achievement}
-  %%      \resumeItem{Description of responsibility or achievement}
-   %     \resumeItem{Description of responsibility or achievement}
-   % \resumeItemListEnd
 
-% \resumeSubheading
-%     {Position Title}{Date Range}
- %     {Organization}{Location}
-  %%    \resumeItemListStart
-   %     \resumeItem{Description of responsibility or achievement}
-      %  \resumeItem{Description of responsibility or achievement}
-     %   \resumeItem{Description of responsibility or achievement}
-     %   \resumeItem{Description of responsibility or achievement}
-     %   \resumeItem{Description of responsibility or achievement}
-     %   \resumeItem{Description of responsibility or achievement}
-     % \resumeItemListEnd
+  %  \resumeSubheading
+%   {Information Technology Support Specialist}{Sep. 2018 -- Present}
+%      {Southwestern University}{Georgetown, TX}
+%      \resumeItemListStart
+%        \resumeItem{Communicate with managers to set up campus computers used on campus}
+%        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+%        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+%    \resumeItemListEnd
 
+%    \resumeSubheading
+%     {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+%      {Southwestern University}{Georgetown, TX}
+%      \resumeItemListStart
+%        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+%        \resumeItem{Developed a game in Java to test the generated dungeons}
+%       \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+%        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+%        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+%        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+%      \resumeItemListEnd
 
 %  \resumeSubHeadingListEnd
 
@@ -192,7 +196,7 @@
           \resumeItemListStart
           \vspace{0.5em} % Adds vertical space of 0.5em
             \resumeItem{Developed a Speech Emotion Detection model in \textbf{Python}, achieving \textbf{85\%} accuracy using \textbf{TensorFlow} and \textbf{SVM}, with audio feature extraction performed by LibROSA (e.g., MFCC, Chroma, and Mel Spectrogram).}
-            \resumeItem{Built and optimized data pipelines using \textbf{Git} and \textbf{NumPy}, reducing preprocessing time by \textbf{30\%} and improving data handling efficiency by \textbf{40\%}.}
+            \resumeItem{Optimized \textbf{data preprocessing} with \textbf{NumPy}, reducing computation time by \textbf{30\%}, while maintaining \textbf{pipeline} versioning and collaboration with \textbf{Git}.}
             \resumeItem{Enhanced emotion classification accuracy by \textbf{25\%} through advanced feature engineering and hyperparameter tuning techniques using \textbf{Scikit-Learn}.}
             \resumeItem{Visualized model performance and insights using \textbf{Matplotlib}, increasing the efficiency of data interpretation by \textbf{20\%}}
           \resumeItemListEnd
@@ -200,13 +204,16 @@
           {\textbf{Predictive Analysis for credit limit} $|$ \emph{\textbf{\scriptsize Python,\scriptsize Scikit-Learn,\scriptsize TensorFlow,\scriptsize SQL,\scriptsize Pandas,\scriptsize NumPy,}}}{\textit{July 2024}}
           \resumeItemListStart
            \vspace{0.5em}
-            \resumeItem{Developed machine learning model using \textbf{Python}, \textbf{Scikit-Learn}, and TensorFlow, improving prediction accuracy by \textbf{20\%.} Applied \textbf{Ridge} and \textbf{Lasso} Regression to reduce overfitting and improve model generalization.}
-            \resumeItem{Preprocessed data with \textbf{Pandas} and \textbf{NumPy}, reducing anomalies by \textbf{25\%} and increasing model accuracy by \textbf{18\%} through feature scaling, outlier detection, and data normalization.}
-            \resumeItem{Used advanced \textbf{feature engineering} and hyperparameter tuning, boosting model performance by \textbf{22\%} and validating results through \textbf{cross-validation}. Evaluated models using \textbf{RMSE, MAE, and R²}.}
+           \resumeItem{Developed a machine learning model using \textbf{Python}, \textbf{Scikit-Learn}, and \textbf{TensorFlow} to derive predictive insights from raw financial data, improving prediction accuracy by \textbf{20\%} through feature scaling, normalization, and applying \textbf{Ridge} and \textbf{Lasso Regression} to reduce overfitting and enhance model generalization.}
+            \resumeItem{Preprocessed data with \textbf{Pandas} and \textbf{NumPy}, reducing anomalies by \textbf{25\% }and increasing model accuracy by \textbf{18\%} through feature scaling, outlier detection, and data normalization.}
+         
+            \resumeItem{Used advanced \textbf{feature engineering} and hyperparameter tuning, boosting model performance by \textbf{22\%} and validating results through cross-validation. Evaluated models using \textbf{RMSE, MAE, and R²}}
             \resumeItem{Enhanced \textbf{data pipeline} efficiency with \textbf{SQL}, streamlining data extraction for scalable machine learning pipelines, and visualized insights with \textbf{Matplotlib} for effective communication.}
+            \resumeItem{\textbf{Optimized the data flow} for batch processing using \textbf{cloud services} (Azure Data Factory/AWS Data Pipelines) to manage large-scale data efficiently.}
+            
           \resumeItemListEnd
     \resumeSubHeadingListEnd
-
+\end{document}
 
 
 
@@ -214,4 +221,4 @@
 
 
 %-------------------------------------------
-\end{document}
+
